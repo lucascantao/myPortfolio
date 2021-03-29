@@ -1,0 +1,47 @@
+:root {
+  --light-text: #dadada;
+  --dark-text: #464646;
+  --text-color-muted: #aaaaaa;
+  --nav-text-color: #000000;
+  --nav-text-color-selected: #ffffff;
+  --nav-option-color: linear-gradient(
+    45deg,
+    #a73bff 20%,
+    rgb(67, 195, 255) 80%
+  );
+  --link-text: rgb(0, 195, 255);
+
+  --background: linear-gradient(0deg, #00293c, #1a0024);
+  --foreground: linear-gradient(45deg, rgb(0, 93, 114), rgb(57, 0, 79));
+  --nav: rgba(22, 24, 55, 0.583);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto Mono", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
