@@ -12,6 +12,13 @@ const projects = [
         description: 'Epic Games interface Clone made for practice with ReactJs',
         preview: 'https://epic-clone.vercel.app/',
         repository: 'https://github.com/lucascantao/epic-clone'
+    },
+    {
+        imgSource: 'img/mycareapp-thumb.png',
+        title: 'My Care App',
+        description: 'A BMI (Body mass index) calculator, with login system, made with NextJs and NextAuth',
+        preview: 'https://mycareapp.vercel.app/',
+        repository: 'https://github.com/lucascantao/mycareapp'
     }
 ]
 

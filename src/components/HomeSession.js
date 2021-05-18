@@ -20,7 +20,7 @@ function HomeSession() {
 
                 <div className={styles.rightContainer}>
                     <p>Hi!</p>
-                    <p> My name is Lucas, i am a IT student and front-end web developer. Needing a web site for your business or personal project ? Get in contact with me by sending a e-mail</p>
+                    <p> My name is Lucas, IT student, needing a web site for your business or personal project? Get in contact with me by sending a e-mail</p>
 
                     <div className={styles.socialLinks}>
                         <a href="https://facebook.com/lucas.cantao.92"><FaFacebook /></a>
